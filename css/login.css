@@ -1,0 +1,110 @@
+.body {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+}
+.body form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 500px;
+}
+.body form input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(215, 215, 215);
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.body form button {
+  padding: 10px;
+  background-color: #e40343;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s;
+}
+.body form button:hover {
+  padding: 10px;
+  background-color: #e4034354;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #e40343;
+}
+.body form #sub2 {
+  padding: 10px;
+  background-color: #0c4377;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  color: white;
+  transition: 0.2s;
+}
+.body form #sub2:hover {
+  padding: 10px;
+  background-color: #0c437754;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #0c4377;
+}
+.body form #con {
+  text-transform: uppercase;
+  text-align: center;
+  color: #e40343;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.body form #errMsg {
+  text-transform: uppercase;
+  text-align: center;
+  color: #e40343;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.body form p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #0c4377;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 850px) {
+  .body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+  }
+  .body form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 80%;
+  }
+  .body form #con {
+    text-transform: uppercase;
+    text-align: center;
+    color: #e40343;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .body form p {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0c4377;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+}
